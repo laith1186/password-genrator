@@ -1,0 +1,59 @@
+body{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    background-color: rgb(68, 66, 66);
+    padding: 5rem;
+    border-radius: 1rem;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 2rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin: 0;
+    text-align: center;
+}
+.head{
+    margin: 0;
+    text-align: center;
+}
+.character-amount-cointainer{
+    display: flex;
+    align-items: center;
+}
+.number-input{
+    width: 3rem;
+}
+.Password-display{
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    border: 2px solid gray;
+    height: 3rem;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: 1rem;
+
+}
+.butn{
+    grid-column: span 2;
+}
